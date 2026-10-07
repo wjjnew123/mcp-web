@@ -1,0 +1,8 @@
+node_modules/
+.env
+*.log
+.mcp-web-storage/
+release/
+dist/
+license.lic
+license.pub

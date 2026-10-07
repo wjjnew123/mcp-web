@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.wjjnew123/mcp-web",
+  "description": "网页读写与浏览器自动化：静态极速解析 + 真实 Chromium 动态渲染，20 个工具；远程托管开箱即用。",
+  "version": "4.8.9",
+  "repository": { "url": "https://github.com/wjjnew123/mcp-web", "source": "github" },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpweb.wjjnew.cn/mcp",
+      "headers": [
+        { "name": "Authorization", "description": "Bearer <mcp_sk_xxx>（在 https://mcpweb.wjjnew.cn/ 注册获取）", "isSecret": true, "isRequired": true }
+      ]
+    }
+  ]
+}
