@@ -1,5 +1,7 @@
 # mcp-web — MCP Web Runtime（网页读写与浏览器自动化）
 
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/wjjnew123/mcp-web)
+
 面向 AI Agent 的网页读写 + 浏览器自动化 MCP 服务器：**静态极速解析（Axios + Cheerio）** 与 **真实 Chromium 动态渲染** 双内核，共 **20 个工具**。
 
 - 远程端点：`https://mcpweb.wjjnew.cn/mcp`（Streamable HTTP）
